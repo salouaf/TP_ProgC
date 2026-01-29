@@ -15,7 +15,7 @@ printf("a - b = %d\n", a - b);
 printf("a * b = %d\n", a * b);
 
 /*division*/
-printf("a - b = %f\n", (float)a / b);   /*Pour un résultat décimal, il faut convertir en float*/
+printf("a / b = %f\n", (float)a / b);   /*Pour un résultat décimal, il faut convertir en float*/
 
 /*reste*/
 printf("reste de la divison a / b = %d\n", a % b);
@@ -32,6 +32,7 @@ printf("a > b : %s\n", (a > b) ? "true" : "false");
   
 return 0;
 }
+
 
 
 
